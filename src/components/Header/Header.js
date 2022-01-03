@@ -1,8 +1,13 @@
 import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
+import './Header.css';
+import { Navbar, Container, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
+import icon from '../../img/icon/1.png';
 
 const Header = () => {
+    const { user, logOut } = useAuth();
+
     const activeStyle = {
         color: "red"
     }
@@ -16,17 +21,25 @@ const Header = () => {
             <>
                 <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg">
                     <Container>
-                        <Navbar.Brand><h3><b>Spten Dental Care</b></h3></Navbar.Brand>
+                        <Navbar.Brand><div className='title'>
+                            <img src={icon} alt="" />
+                            <h3 className='text-warning px-2'><b>Spten Dental Care</b></h3>
+                        </div></Navbar.Brand>
                         <Navbar.Toggle />
-                        <Navbar.Collapse className="justify-content-end">
+                        <Navbar.Collapse className="justify-content-start">
                             <NavLink activeStyle={activeStyle} style={style} to="/home">Home</NavLink>
-                            <NavLink activeStyle={activeStyle} style={style} to="/about">About</NavLink>
                             <NavLink activeStyle={activeStyle} style={style} to="/services">Services</NavLink>
-                            <NavLink activeStyle={activeStyle} style={style} to="/contact">Contact Us</NavLink>
-                            <NavLink activeStyle={activeStyle} style={style} to="/registration">Registration</NavLink>
-                            <NavLink activeStyle={activeStyle} style={style} to="/login">Login</NavLink>
+                            <NavLink activeStyle={activeStyle} style={style} to="/specialistDoctors">Specialist Doctors</NavLink>
+                            <NavLink activeStyle={activeStyle} style={style} to="/contact">Contact</NavLink>
+                            <NavLink activeStyle={activeStyle} style={style} to="/about">About Us</NavLink>
+                            <NavLink activeStyle={activeStyle} style={style} to="/blog">Blog</NavLink>
+                            <NavLink activeStyle={activeStyle} style={style} to="/faq">FAQ</NavLink>
+                            {user.displayName ?
+                                <Button onClick={logOut} variant="light">Logout</Button>
+                                : <NavLink activeStyle={activeStyle} style={style} to="/login">Login</NavLink>
+                            }
                             <Navbar.Text>
-                                Signed in as: <a href="#login">Authoi</a>
+                                <a href="#login">{user?.email ? user?.email : user?.providerData ? user?.providerData[0]?.email : ''}</a>
                             </Navbar.Text>
                         </Navbar.Collapse>
                     </Container>

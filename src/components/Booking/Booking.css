@@ -1,0 +1,11 @@
+.booking{
+    color: black;
+    background-color: white;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+}
+
+.bottom{
+    padding-bottom: 130px;
+}

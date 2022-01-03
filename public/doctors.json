@@ -1,0 +1,64 @@
+[
+    {
+        "id":1,
+        "img":"https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "title":"Dr. Ishrat Jahan Liza",
+        "detail":"Dr. Ishrat Jahan Liza is a Oral and Dental Surgeon doctor in Dhaka. Her qualification is BDS (DU). She is working as a Oral and Dental Surgeon doctor"
+    },
+    
+    {
+        "id":2,
+        "img":"https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg",
+        "title":"Prof. Dr. Abdullah-Al-Faruq",
+        "detail":"Prof. Dr. Abdullah-Al-Faruq is a Dental, Oral & Maxillofacial Specialist Surgeon doctor in Dhaka. His qualification is BDS, FCPS (Oral & Maxillofacial Surgery)."
+    },
+    
+    {
+        "id":3,
+        "img":"https://cdn.statically.io/img/patients.smarterhealth.sg/wp-content/uploads/2019/11/Smarter-Health-General-Practitioner-or-Specialist-Doctor-768x512.jpg?quality=90&f=auto",
+        "title":"Dr. Kazi Rabeya Naznin",
+        "detail":"Dr. Kazi Rabeya Naznin is a Dental Surgeon doctor in Dhaka. Her qualification is BDS, MPH, PGT (Dental). She is working as a Dental Surgeon doctor"
+    },
+    
+    {
+        "id":4,
+        "img":"https://st.depositphotos.com/1771835/1477/i/950/depositphotos_14779771-stock-photo-portrait-of-confident-young-doctor.jpg",
+        "title":"Dr. Md. Wazed Ali",
+        "detail":"Dr. Md. Wazed Ali is a Dental Surgeon doctor in Dhaka. His qualification is BDS, DDS, FCPS (Orthodontic), BCPS."
+    },
+    
+    {
+        "id":5,
+        "img":"https://image.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg",
+        "title":"Prof. Dr. Md. Shamsul Alam",
+        "detail":"Prof. Dr. Md. Shamsul Alam is a Oral & Dental Surgeon doctor in Dhaka. His qualification is BDS, DCD (USSR), FADI (USA). "
+    },
+    
+    {
+        "id":6,
+        "img":"https://image.freepik.com/free-photo/doctor-with-co-workers-analyzing-x-ray_1098-581.jpg",
+        "title":"Prof. Dr. Motiur Rahman Molla",
+        "detail":"Prof. Dr. Motiur Rahman Molla is a Oral & Maxillofacial Surgery Specialist doctor in Dhaka. His qualification is BDS, PhD (Japan), Diploma (OMS), FCPS, FICD (USA)."
+    },
+    
+    {
+        "id":7,
+        "img":"https://image.freepik.com/free-photo/asian-male-medical-doctor_1098-19688.jpg",
+        "title":"Dr. Md. Tariqul Islam Rabin",
+        "detail":"Dr. Md. Tariqul Islam Rabin is a Dental Specialist & Surgeon doctor in Dhaka. His qualification is BDS (DU), PGT (Dental)."
+    },
+    
+    {
+        "id":8,
+        "img":"https://image.freepik.com/free-photo/cheerful-vietnamese-chemist_1098-21169.jpg",
+        "title":"Dr. S. M. Anwar Sadat",
+        "detail":"Dr. S. M. Anwar Sadat is a Oral & Maxillofacial Surgeon doctor in Dhaka. His qualification is BDS, MCPS (Dental Surgery), FCPS, MS."
+    },
+    
+    {
+        "id":9,
+        "img":"https://www.verywellhealth.com/thmb/l_SchIYgww-HBq4oknwYyEUMbWc=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hispanic-doctor-with-digital-tablet-talking-to-patient-905560662-6f257aea7e264258b9a13e46b9b7239c.jpg",
+        "title":"Prof. Dr. Nurul Amin",
+        "detail":"Prof. Dr. Nurul Amin is a Dental, Oral & Maxillofacial Surgery Specialist doctor in Dhaka. His qualification is BDS (Dhaka), Ph.D (Japan)."
+    }
+]

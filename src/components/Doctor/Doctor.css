@@ -1,4 +1,4 @@
-.service{
+.doctor{
     color: black;
     background-color: white;
     margin: 10px;
@@ -8,8 +8,8 @@
     border-radius: 20px;
 }
 
-.service img{
+.doctor img{
     width: 400px;
-    height: 200px;
-    border-radius: 10px;
+    height: 300px;
+    padding-bottom: 20px;
 }
