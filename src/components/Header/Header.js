@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css';
 import { Navbar, Container, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
@@ -21,10 +20,12 @@ const Header = () => {
             <>
                 <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg">
                     <Container>
-                        <Navbar.Brand><div className='title'>
-                            <img src={icon} alt="" />
-                            <h3 className='text-warning px-2'><b>Spten Dental Care</b></h3>
-                        </div></Navbar.Brand>
+                        <Navbar.Brand>
+                            <div className='d-flex align-items-center'>
+                                <img src={icon} alt="" />
+                                <h3 className='text-warning px-2'><b>Spten Dental Care</b></h3>
+                            </div>
+                        </Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-start">
                             <NavLink activeStyle={activeStyle} style={style} to="/home">Home</NavLink>

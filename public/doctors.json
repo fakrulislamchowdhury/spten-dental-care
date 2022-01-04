@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "img":"https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "img":"https://image.freepik.com/free-photo/portrait-doctor_144627-39390.jpg",
         "title":"Dr. Ishrat Jahan Liza",
         "detail":"Dr. Ishrat Jahan Liza is a Oral and Dental Surgeon doctor in Dhaka. Her qualification is BDS (DU). She is working as a Oral and Dental Surgeon doctor"
     },
@@ -22,7 +22,7 @@
     
     {
         "id":4,
-        "img":"https://st.depositphotos.com/1771835/1477/i/950/depositphotos_14779771-stock-photo-portrait-of-confident-young-doctor.jpg",
+        "img":"https://image.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg?1",
         "title":"Dr. Md. Wazed Ali",
         "detail":"Dr. Md. Wazed Ali is a Dental Surgeon doctor in Dhaka. His qualification is BDS, DDS, FCPS (Orthodontic), BCPS."
     },
@@ -37,8 +37,8 @@
     {
         "id":6,
         "img":"https://image.freepik.com/free-photo/doctor-with-co-workers-analyzing-x-ray_1098-581.jpg",
-        "title":"Prof. Dr. Motiur Rahman Molla",
-        "detail":"Prof. Dr. Motiur Rahman Molla is a Oral & Maxillofacial Surgery Specialist doctor in Dhaka. His qualification is BDS, PhD (Japan), Diploma (OMS), FCPS, FICD (USA)."
+        "title":"Prof. Dr. Motiur Rahman",
+        "detail":"Prof. Dr. Motiur Rahman Molla is a Oral & Maxillofacial Surgery Specialist doctor in Dhaka. His qualification is BDS, PhD (Japan)."
     },
     
     {
@@ -59,6 +59,6 @@
         "id":9,
         "img":"https://www.verywellhealth.com/thmb/l_SchIYgww-HBq4oknwYyEUMbWc=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hispanic-doctor-with-digital-tablet-talking-to-patient-905560662-6f257aea7e264258b9a13e46b9b7239c.jpg",
         "title":"Prof. Dr. Nurul Amin",
-        "detail":"Prof. Dr. Nurul Amin is a Dental, Oral & Maxillofacial Surgery Specialist doctor in Dhaka. His qualification is BDS (Dhaka), Ph.D (Japan)."
+        "detail":"Prof. Dr. Nurul Amin is a Dental, Oral & Maxillofacial Surgery Specialist doctor in Dhaka. His qualification is BDS (Dhaka)"
     }
 ]

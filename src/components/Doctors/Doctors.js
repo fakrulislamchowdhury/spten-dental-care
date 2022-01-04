@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import Doctor from '../Doctor/Doctor';
 import './Doctors.css';
 
@@ -12,15 +13,14 @@ const Doctors = () => {
     }, [])
 
     return (
-        <div>
+        <Container>
             <h1 className='text-primary mt-5'>Our Dental Specialist Doctors</h1>
             <div className="doctor-container">
                 {
                     doctors.map(doctor => <Doctor key={doctor.id} doctor={doctor}></Doctor>)
                 }
-
             </div>
-        </div>
+        </Container>
     );
 };
 

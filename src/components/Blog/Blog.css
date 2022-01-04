@@ -1,16 +1,26 @@
-
 .blog{
     color: black;
     background-color: white; 
-    text-align: left;
+    text-align: justify;
     margin-top: 30px;
     padding-top: 30px;
 }
 
 .blog img{
-    width: 1000px;
-    height: 400px;   
+    width: 1120px;
+    height: 500px;
 }
-.blog-top{
-    text-align: center;
+
+@media only screen and (max-width: 688px){
+    .blog img{
+        height: 130px;
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 991px){
+    .blog img{
+        height: 130px;
+        width: 300px;
+    }
 }

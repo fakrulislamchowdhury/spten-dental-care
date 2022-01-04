@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './Services.css';
+import { Container } from 'react-bootstrap';
 import Service from '../Service/Service';
-
+import './Services.css';
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -13,14 +13,14 @@ const Services = () => {
     }, [])
 
     return (
-        <div>
+        <Container>
             <h1 className='text-primary mt-5'>Our All Services</h1>
             <div className="service-container">
                 {
                     services.map(service => <Service key={service.id} service={service} ></Service>)
                 }
             </div>
-        </div>
+        </Container>
     );
 };
 

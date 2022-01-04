@@ -1,13 +1,14 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import './Banner.css';
+import { Carousel, Container } from 'react-bootstrap';
 import img1 from '../../../img/banner/1.jpg'
 import img2 from '../../../img/banner/2.jpg'
 import img3 from '../../../img/banner/3.jpg'
 
 const Banner = () => {
     return (
-        <>
-            <Carousel fade className='pb-5'>
+        <Container>
+            <Carousel fade className='banner-container pb-5 pt-2'>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -44,7 +45,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        </>
+        </Container>
     );
 };
 
