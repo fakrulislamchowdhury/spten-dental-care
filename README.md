@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project Name
+
+Spten Dental Care
+
+# Project Live Site Link [Live Site](https://spten-dental-care.web.app/).
+
+This website is a dental care related. 
+
 ## Available Scripts
 
 In the project directory, you can run:
