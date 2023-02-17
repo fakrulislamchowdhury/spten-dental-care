@@ -35,13 +35,27 @@ const Header = () => {
                             <NavLink activeStyle={activeStyle} style={style} to="/about">About Us</NavLink>
                             <NavLink activeStyle={activeStyle} style={style} to="/blog">Blog</NavLink>
                             <NavLink activeStyle={activeStyle} style={style} to="/faq">FAQ</NavLink>
+
                             {user.displayName ?
                                 <Button onClick={logOut} variant="light">Logout</Button>
                                 : <NavLink activeStyle={activeStyle} style={style} to="/login">Login</NavLink>
                             }
-                            <Navbar.Text>
-                                <a href="#login">{user?.email ? user?.email : user?.providerData ? user?.providerData[0]?.email : ''}</a>
+
+                            < Navbar.Text >
+                                {<a href="#login">{user?.displayName ? user?.displayName : ''}</a>}
                             </Navbar.Text>
+
+                            {user.displayName ?
+                                < Navbar.Brand >
+                                    <img
+                                        src={user?.photoURL ? user?.photoURL : ''}
+                                        width="30"
+                                        height="30"
+                                        border-radius="50%"
+                                        className="d-inline-block align-top"
+                                        alt=""
+                                    />
+                                </Navbar.Brand> : ''}
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
