@@ -9,7 +9,7 @@ const Service = (props) => {
         <Container>
             <div className='service px-4'>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={img} />
+                    <Card.Img variant="top" src={img} style={{ height: "200px", width: "100%" }} />
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>
