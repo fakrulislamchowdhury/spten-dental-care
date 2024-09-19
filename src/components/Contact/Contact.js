@@ -11,17 +11,17 @@ const Contact = () => {
             </div>
             <div className='bottom'>
                 <div className='d-flex align-items-center'>
-                    <img src="https://i.ibb.co.com/Y3pf8p8/phone.png" width="20px" alt="" />
+                    <img src="https://i.ibb.co.com/Y3pf8p8/phone.png" width="18px" alt="" />
                     <h5 className='ps-2'>Phone: </h5>
-                    <h6 className='ps-3'><small>+8801834959234</small></h6>
+                    <h6 className='ps-3'><small>01834959234</small></h6>
                 </div>
                 <div className='d-flex align-items-center'>
-                    <img src="https://i.ibb.co.com/sFYh6kt/location.png" width="30px" alt="" />
+                    <img className='ms-1' src="https://i.ibb.co.com/RcnP64k/location.png" width="12px" alt="" />
                     <h5 className='ps-2'>Location:</h5>
                     <h6 className='ps-3'><small>House-32, Rd-5, Adabor, Dhaka-1207, BD.</small></h6>
                 </div>
                 <div className='d-flex align-items-center'>
-                    <img src="https://i.ibb.co.com/y41r07r/gmail.png" width="30px" height="30px" alt="" />
+                    <img src="https://i.ibb.co.com/y41r07r/gmail.png" width="20px" height="20px" alt="" />
                     <h5 className='ps-2'>Email:</h5>
                     <h6 className='ps-3'><small>info@spten.com.bd</small></h6>
                 </div>

@@ -5,9 +5,14 @@
     padding-top: 10px;
     text-align: justify;
     border-radius: 20px;
+    animation-delay: 500ms;
 }
 
 .doctor img{
     border-radius: 20px;
     padding: 10px;
+}
+
+.doctor:hover{
+    background-color: honeydew;
 }

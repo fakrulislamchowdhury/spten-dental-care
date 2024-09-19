@@ -20,11 +20,11 @@ const Booking = () => {
             const matchData = details.find(detail => detail.id == serviceId)
             setSpecificDetail(matchData);
         }
-    }, [details, serviceId, specificDetail])
+    }, [details, serviceId, specificDetail]);
 
     return (
         <Container>
-            <div className='bottom shadow-lg rounded'>
+            <div className='shadow-lg rounded'>
                 <div className='booking'>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={specificDetail?.img} style={{ height: "200px", width: "100%" }} />

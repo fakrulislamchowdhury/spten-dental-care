@@ -14,7 +14,7 @@ const Doctors = () => {
 
     return (
         <Container>
-            <h1 className='text-primary mt-5 doctor-list'>Our Dental Specialist Doctors</h1>
+            <h1 className='text-primary mt-5 doctor-list animate__animated animate__backInUp'>Our Dental Specialist Doctors</h1>
             <div className="doctor-container">
                 {
                     doctors.map(doctor => <Doctor key={doctor.id} doctor={doctor}></Doctor>)
