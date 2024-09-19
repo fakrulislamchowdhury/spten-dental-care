@@ -1,18 +1,18 @@
 import React from 'react';
 import './Banner.css';
 import { Carousel, Container } from 'react-bootstrap';
-import img1 from '../../../img/banner/1.jpg';
-import img2 from '../../../img/banner/2.jpg';
-import img3 from '../../../img/banner/3.jpg';
+// import img1 from '../../../img/banner/Banner-1.jpg';
+// import img2 from '../../../img/banner/Banner-2.jpg';
+// import img3 from '../../../img/banner/Banner-3.jpg';
 
 const Banner = () => {
     return (
         <Container>
-            <Carousel fade className='banner-container pb-5 pt-2'>
+            <Carousel fade className='banner-container pb-5 pt-2 banner-list'>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={img1}
+                        src={"https://i.ibb.co.com/VH8vKNd/Banner-1.jpg"}
                         alt="First slide"
                     />
                     <Carousel.Caption className='text-dark'>
@@ -23,7 +23,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={img2}
+                        src={"https://i.ibb.co.com/FsH7LL0/Banner-2.jpg"}
                         alt="Second slide"
                     />
                     <Carousel.Caption className='text-dark'>
@@ -35,7 +35,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={img3}
+                        src={"https://i.ibb.co.com/ykPVy4w/Banner-3.jpg"}
                         alt="Third slide"
                     />
                     <Carousel.Caption className='text-dark'>

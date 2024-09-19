@@ -1,7 +1,3 @@
-.about{
-    width: 600px;
-}
-
 .paragraph{
     text-align: justify;
 }
@@ -11,6 +7,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
+
+.about-list {
+    margin-top: 20px !important;
+    padding-top: 30px !important
+}
+
 
 @media only screen and (max-width: 688px){
     .about-container{

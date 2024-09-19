@@ -24,10 +24,10 @@ const Booking = () => {
 
     return (
         <Container>
-            <div className='bottom'>
+            <div className='bottom shadow-lg rounded'>
                 <div className='booking'>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={specificDetail?.img} />
+                        <Card.Img variant="top" src={specificDetail?.img} style={{ height: "200px", width: "100%" }} />
                         <Card.Body>
                             <Card.Title>{specificDetail?.title}</Card.Title>
                             <Card.Text>

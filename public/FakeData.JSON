@@ -1,64 +1,64 @@
 [
     {
         "id":1,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/8D72yzf/Cleanings.jpg",
         "title":"Cleanings",
         "detail":"Regular teeth check-ups and cleanings are vital in the maintenance of good oral health, and our team of dental hygienists offer top quality care for your teeth!"
 },
     
 {
         "id":2,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/fHZQMkm/Crowns.png",
         "title":"Crowns",
         "detail":"Crowns are provided to help support weakened or cracked teeth. Completed to the highest quality, they preserve both function and beauty of your teeth!"
     },
     
     {
         "id":3,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/5kYBxmC/Root-Canal-Therapy.jpg",
         "title":"Root Canal Therapy",
         "detail":"When the roots of a tooth are infected, root canal therapy is needed to remove the infection, helping alleviate pain and diminish further complications."
     },
     
     {
         "id":4,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/M7mwCwS/Veneers.png",
         "title":"Veneers",
         "detail":"When a tooth is discoloured or misshapen, a veneer helps straighten and match the colour of your other teeth, helping you achieve the perfect smile!"
     },
     
     {
         "id":5,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/60k3YyF/Wisdom-Teeth-Extractions.png",
         "title":"Wisdom Teeth Extractions",
         "detail":"In addition to regular tooth extractions, our dentists are pleased to offer Grande Prairie residents wisdom teeth extraction services. Wisdom Systems is the best."
     },
     
     {
         "id":6,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/tKQSNMB/Invisalign.png",
         "title":"Invisalign",
         "detail":"Wanting a beautiful, straighter smile? Invisalign is the popular orthodontic treatment many people use to successfully achieve a straighter smile."
     },
     
     {
         "id":7,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/RHdnw9L/Implants.png",
         "title":"Implants",
         "detail":"Implants are becoming more and more popular with many patients! Used in place of a bridge, partial denture, or full denture, implants restore your smile!"
     },
     
     {
         "id":8,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
+        "img":"https://i.ibb.co.com/pjF1mS4/Whitening.png",
         "title":"Whitening",
         "detail":"We offer professional teeth whitening! Opalescence® Tooth Whitening Systems is the best system on the market and available through our office."
     },
 
     {
         "id":9,
-        "img":"https://i.ibb.co.com/8D72yzf/3.jpg",
-        "title":"Whitening",
+        "img":"https://i.ibb.co.com/59nSJ6F/Fillings.png",
+        "title":"Fillings",
         "detail":"We offer professional teeth whitening! Opalescence® Tooth Whitening Systems is the best system on the market and available through our office."
     }
 ]

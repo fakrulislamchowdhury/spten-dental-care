@@ -7,7 +7,7 @@ const FAQ = () => {
         <>
             <Container>
                 <h1 className='mt-5 pt-5'>Frequently Asked Questions</h1>
-                <div className='faq mb-5 pb-5'>
+                <div className='faq'>
                     <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>What will happen on my first appointment?</Accordion.Header>

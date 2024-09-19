@@ -7,7 +7,7 @@ const Service = (props) => {
     const { id, img, title, detail } = props.service;   // destructuring in service components
     return (
         <Container>
-            <div className='service px-4'>
+            <div className='service p-4 shadow rounded'>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={img} style={{ height: "200px", width: "100%" }} />
                     <Card.Body>

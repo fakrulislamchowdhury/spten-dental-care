@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <div>
             <>
-                <Navbar bg="light" variant="light" collapseOnSelect expand="lg">
+                <Navbar bg="light" variant="light" fixed="top" collapseOnSelect expand="lg">
                     <Container>
                         <Navbar.Brand>
                             <div className='d-flex align-items-center'>

@@ -1,4 +1,8 @@
 .login{
-    padding-bottom: 180px;
-    margin-bottom: 180px;
+    padding-bottom: 135px;
+    margin-bottom: 130px;
+}
+
+.login-list {
+    padding-top: 30px !important
 }

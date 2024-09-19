@@ -5,7 +5,7 @@ import useAuth from '../../../hooks/useAuth';
 const Login = () => {
     const { signInUsingGoogle, signInUsingGithub } = useAuth();
     return (
-        <div className='login'>
+        <div className='login login-list'>
             <h1 className='py-5'>Please login</h1>
             <div>
                 <button onClick={signInUsingGoogle} className="btn btn-warning">Google Sign In</button>
