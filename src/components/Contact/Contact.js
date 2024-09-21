@@ -11,19 +11,19 @@ const Contact = () => {
             </div>
             <div className='bottom'>
                 <div className='d-flex align-items-center'>
-                    <img src="https://i.ibb.co.com/Y3pf8p8/phone.png" width="18px" alt="" />
-                    <h5 className='ps-2'>Phone: </h5>
-                    <h6 className='ps-3'><small>01834959234</small></h6>
+                    <img src="https://i.ibb.co.com/pZhCgYJ/phone.png" width="18px" alt="" />
+                    <h6 className='ps-2'>Phone: </h6>
+                    <h6 className='ps-1'><small>01834-959234</small></h6>
                 </div>
                 <div className='d-flex align-items-center'>
-                    <img className='ms-1' src="https://i.ibb.co.com/RcnP64k/location.png" width="12px" alt="" />
-                    <h5 className='ps-2'>Location:</h5>
-                    <h6 className='ps-3'><small>House-32, Rd-5, Adabor, Dhaka-1207, BD.</small></h6>
+                    <img className='ms-1' src="https://i.ibb.co.com/RcnP64k/location.png" width="16px" alt="" />
+                    <h6 className='ps-2'>Location:</h6>
+                    <h6 className='ps-1'><small>House-32, Rd-5, Adabor, Dhaka-1207, BD.</small></h6>
                 </div>
                 <div className='d-flex align-items-center'>
                     <img src="https://i.ibb.co.com/y41r07r/gmail.png" width="20px" height="20px" alt="" />
-                    <h5 className='ps-2'>Email:</h5>
-                    <h6 className='ps-3'><small>info@spten.com.bd</small></h6>
+                    <h6 className='ps-2'>Email:</h6>
+                    <h6 className='ps-1'><small>info@spten.com.bd</small></h6>
                 </div>
             </div >
         </Container>
