@@ -23,7 +23,7 @@ const Header = () => {
                         <Navbar.Brand>
                             <div className='d-flex align-items-center'>
                                 <img src={icon} alt="" />
-                                <h3 className='text-warning px-2'><b>Spten Dental Care</b></h3>
+                                <span className='text-warning px-2'><b>Spten Dental Care</b></span>
                             </div>
                         </Navbar.Brand>
                         <Navbar.Toggle />
